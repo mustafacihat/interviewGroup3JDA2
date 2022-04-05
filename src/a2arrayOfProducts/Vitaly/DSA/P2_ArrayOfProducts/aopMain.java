@@ -1,8 +1,8 @@
-package a1generateDocument.Vitaly.DSA.P2_ArrayOfProducts;
+package a2arrayOfProducts.Vitaly.DSA.P2_ArrayOfProducts;
 
 import java.util.ArrayList;
 
-import static a1generateDocument.Vitaly.DSA.P2_ArrayOfProducts.ArrOfProducts.*;
+import static a2arrayOfProducts.Vitaly.DSA.P2_ArrayOfProducts.ArrOfProducts.*;
 
 public class aopMain {
     public static void main(String[] args) {

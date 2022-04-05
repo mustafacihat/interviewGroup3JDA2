@@ -1,4 +1,4 @@
-package a1generateDocument.Vitaly.DSA.P2_ArrayOfProducts;
+package a2arrayOfProducts.Vitaly.DSA.P2_ArrayOfProducts;
 
 import java.util.ArrayList;
 import java.util.HashMap;

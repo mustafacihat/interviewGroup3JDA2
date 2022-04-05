@@ -1,4 +1,4 @@
-package a1generateDocument.Vitaly.DSA.P1_generateDoc;
+package a1generateDocument.Vitaly.P1_generateDoc;
 
 
 
