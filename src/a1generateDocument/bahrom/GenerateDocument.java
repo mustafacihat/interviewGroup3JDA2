@@ -1,4 +1,4 @@
-package a1generateDocument.Bahrom.AlgoAssignmentW1;
+package a1generateDocument.bahrom;
 
 import java.util.HashMap;
 import java.util.Map;
