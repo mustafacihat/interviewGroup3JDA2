@@ -11,10 +11,11 @@ public class ArrayOfProducts {
 
     public static int[] arrOfProd(int[] arr) {
         int[] res = new int[arr.length];
-        Arrays.fill(res, 1);
         for (int i = 0; i < res.length; i++) {
+            int num = 1;
             for (int j = 0; j < arr.length; j++)
-                res[i] *= (i == j) ? 1 : arr[j];
+                num *= (i == j) ? 1 : arr[j];
+            res[i] = num;
         }
         return res;
     }
