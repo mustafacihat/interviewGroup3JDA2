@@ -1,4 +1,4 @@
-package a4DeleteNodesOfLinkedList.Andrei;
+package a4deleteNodesOfLinkedList.Andrei;
 
 public class App {
 
