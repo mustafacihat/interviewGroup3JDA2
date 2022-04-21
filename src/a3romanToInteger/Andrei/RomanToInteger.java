@@ -7,7 +7,7 @@ public class RomanToInteger {
 
 
     public static void main(String[] args) {
-        System.out.println(romanToInt("MCMXCIV"));
+        System.out.println(romanToInt("MCMXLI"));
     }
 
     public static int romanToInt(String str) {

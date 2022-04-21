@@ -27,7 +27,7 @@ public class RomaneLovers {
         String str = "MXLIV";
         System.out.println("convert to the Decimal " + ob.romanToDecimal(str));
 
-        System.out.println("convert to the Roman " + ob.decimalToRoman(1123));
+        System.out.println("convert to the Roman " + ob.decimalToRoman(1904));
     }
 
 
