@@ -49,7 +49,7 @@ public class Roman_numbers {
 
         int sum = 0;
         //Given String of Roman numbers
-        String afterStr = "MCMXCIV";
+        String afterStr = "MCMXLI";
 
         // If there is a special case - one of six listed - remove and accumulate sum.
         if (afterStr.contains("IV")) {
