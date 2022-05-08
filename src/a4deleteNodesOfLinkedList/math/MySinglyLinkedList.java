@@ -34,7 +34,8 @@ public class MySinglyLinkedList<T> {
                 size--;
                 counter++;
             }
-            current = previous.next; //assigning the next reference to our real current after deleting n nodes
+            //assigning the next reference to our real current and we are sending  deleting nodes garbage collection
+            current = previous.next;
         }
 
         return head;
