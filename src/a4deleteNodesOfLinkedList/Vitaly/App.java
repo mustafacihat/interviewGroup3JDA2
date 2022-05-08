@@ -4,11 +4,11 @@ import a4deleteNodesOfLinkedList.Vitaly.myLLpkg.MySinglyLinkedList;
 
 public class  App {
     public static void main(String[] args) {
-        int n = 2;
+        int n = 1;
         int m = 3;
 
         MySinglyLinkedList list = new MySinglyLinkedList();
-        for (int i= 1; i<21; i++){
+        for (int i= 1; i<3; i++){
             list.add(i);
         }
         list.printNodes();

@@ -77,7 +77,7 @@ public class Solution {
             }
             pointer2 = pointer1.next;
 
-            for (int i = 1; i < n && pointer2 != null; i++) {
+            for (int i = 1; i <= n && pointer2 != null; i++) {
                 pointer2 = pointer2.next;
             }
             pointer1.next = pointer2;
