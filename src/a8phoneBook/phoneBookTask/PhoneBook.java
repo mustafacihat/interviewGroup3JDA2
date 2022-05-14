@@ -42,7 +42,7 @@ public class PhoneBook {
         size++;
     }
 
-    public PNode findByName(String firstName) {
+    public PNode findByName(String firstName) throws Exception {
 
         if (isEmpty()) {
             throw new NoSuchElementException("No record is available in phone book");
@@ -55,7 +55,7 @@ public class PhoneBook {
             }
             current = current.next;
         }
-        return current;
+        throw new Exception("No record is available in phone book");
     }
 
     public PNode findByUniqueValueEfficient(String email) {

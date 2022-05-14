@@ -4,7 +4,7 @@ import java.util.List;
 
 public class PhoneBookApp {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         PhoneBook myPhoneBook = new PhoneBook();
 
