@@ -13,6 +13,7 @@ public class SinglyLinkedListApp {
         for (int i = 0; i < length; i++) {
             //System.out.printf("Enter %d.  value please = ", i);
             //nums.myAdd(input.next());
+            //input.close();
             nums.myAdd(i);
         }
         System.out.println("Before removing");
