@@ -8,15 +8,15 @@ import java.util.stream.IntStream;
 public class TwoJoggers {
     public static void main(String[] args) {
 
-        int a = 6;
-        int b = 4;
+        int a = 3;
+        int b = 5;
 
         int max = Math.max(a, b);
         int min = Math.min(a, b);
 
         int lcm = IntStream.rangeClosed(1,min)
                 .filter(num -> (num * max) % min == 0)
-                .map(num -> Math.abs(num * max))
+                .map(num -> num * max)
                 .findFirst()
                 .getAsInt();
 
