@@ -33,8 +33,27 @@ public class TwoJoggers {
 
     public static void main(String[] args) {
 //        System.out.println(Arrays.toString(nbrOfLaps(4, 6)));
-        System.out.println(Arrays.toString(nbrOfLaps(78, 96)));
+//        System.out.println(Arrays.toString(nbrOfLaps(78, 96)));
+//        System.out.println(Arrays.toString(nbrOfLaps2(78, 96)));
+//        System.out.println(Arrays.toString(nbrOfLaps2(4, 6)));
+        System.out.println(Arrays.toString(nbrOfLaps2(5, 3)));
 
+    }
+
+    public static int[] nbrOfLaps2(int x, int y) {
+        int lap_x = 1;
+        int lap_y = 1;
+
+        while (x*lap_x != y*lap_y) {
+            if (x*lap_x > y*lap_y) {
+                lap_y++;
+            } else if(x*lap_x < y*lap_y) {
+                lap_x++;
+            }
+        }
+        int result[] = {lap_x,lap_y};
+        System.out.println("Total distance = "+x*lap_x);
+        return result;
     }
 
     public static int[] nbrOfLaps(int x, int y) {
